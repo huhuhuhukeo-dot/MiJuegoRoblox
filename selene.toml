@@ -1,0 +1,5 @@
+std = "roblox"
+
+[rules]
+# Roblox globals like `workspace` and `task` are provided by the roblox std.
+shadowing = "allow"
